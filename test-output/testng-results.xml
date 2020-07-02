@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23802" started-at="2020-07-02T11:58:55 IST" finished-at="2020-07-02T11:59:19 IST">
+  <suite name="Default suite" duration-ms="23919" started-at="2020-07-02T12:41:24 IST" finished-at="2020-07-02T12:41:48 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23802" started-at="2020-07-02T11:58:55 IST" finished-at="2020-07-02T11:59:19 IST">
+    <test name="Default test" duration-ms="23919" started-at="2020-07-02T12:41:24 IST" finished-at="2020-07-02T12:41:48 IST">
       <class name="com.salesforce.testcases.LoginTestCase">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.salesforce.testcases.LoginTestCase@4b1c1ea0]" name="setupSuite" is-config="true" duration-ms="963" started-at="2020-07-02T11:58:54 IST" finished-at="2020-07-02T11:58:55 IST">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.salesforce.testcases.LoginTestCase@4b1c1ea0]" name="setupSuite" is-config="true" duration-ms="898" started-at="2020-07-02T12:41:23 IST" finished-at="2020-07-02T12:41:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.salesforce.testcases.LoginTestCase@4b1c1ea0]" name="setup" is-config="true" duration-ms="10056" started-at="2020-07-02T11:58:55 IST" finished-at="2020-07-02T11:59:05 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.salesforce.testcases.LoginTestCase@4b1c1ea0]" name="setup" is-config="true" duration-ms="9680" started-at="2020-07-02T12:41:24 IST" finished-at="2020-07-02T12:41:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginAppl()[pri:1, instance:com.salesforce.testcases.LoginTestCase@4b1c1ea0]" name="loginAppl" duration-ms="11066" started-at="2020-07-02T11:59:05 IST" finished-at="2020-07-02T11:59:16 IST">
+        <test-method status="PASS" signature="loginAppl()[pri:1, instance:com.salesforce.testcases.LoginTestCase@4b1c1ea0]" name="loginAppl" duration-ms="11832" started-at="2020-07-02T12:41:33 IST" finished-at="2020-07-02T12:41:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAppl -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.salesforce.testcases.LoginTestCase@4b1c1ea0]" name="tearDownMethod" is-config="true" duration-ms="1506" started-at="2020-07-02T11:59:16 IST" finished-at="2020-07-02T11:59:18 IST">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.salesforce.testcases.LoginTestCase@4b1c1ea0]" name="tearDownMethod" is-config="true" duration-ms="1352" started-at="2020-07-02T12:41:45 IST" finished-at="2020-07-02T12:41:47 IST">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.salesforce.testcases.LoginTestCase@4b1c1ea0]" name="tearDown" is-config="true" duration-ms="1121" started-at="2020-07-02T11:59:18 IST" finished-at="2020-07-02T11:59:19 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.salesforce.testcases.LoginTestCase@4b1c1ea0]" name="tearDown" is-config="true" duration-ms="996" started-at="2020-07-02T12:41:47 IST" finished-at="2020-07-02T12:41:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.salesforce.testcases.LoginTestCase -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
