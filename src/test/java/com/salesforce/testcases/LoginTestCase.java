@@ -19,6 +19,6 @@ public class LoginTestCase extends BaseClass {
 		lp.loginToAppl(username, password);
 		Helper.captureScreenShot(driver);
 		logger.pass("Login Success");
-		//System.out.println("End of test case.");
+		System.out.println("End of test case.");
 	}
 }
