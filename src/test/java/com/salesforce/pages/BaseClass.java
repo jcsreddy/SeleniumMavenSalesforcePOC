@@ -36,7 +36,7 @@ public class BaseClass {
 		
 		/* code for extent report*/
 		projectpath = System.getProperty("user.dir");
-		ExtentHtmlReporter extent = new ExtentHtmlReporter(new File(projectpath+"/Reports/Saleforce "+Helper.getCurrentDateTime()+".html"));
+		ExtentHtmlReporter extent = new ExtentHtmlReporter(new File(projectpath+"/Reports/Salesforce "+Helper.getCurrentDateTime()+".html"));
 		report = new ExtentReports();
 		report.attachReporter(extent);
 	}
